@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { ViewListIcon, XIcon } from '@heroicons/react/solid'
 import { Link} from "react-scroll";
+import Logo from '../assets/logo.png';
 
 
 const Navbar = () => {
@@ -12,7 +13,12 @@ const Navbar = () => {
 
   return (
     <div className='flex justify-between items-center h-15 max-w-[1240px] mx-auto px-4 pb-10 text-black '>
-      <h1 className=' w-[50px] text-sm md:font-bold font-medium '>@lucaspitaperex</h1> 
+     <div class="avatar">
+  <div class="w-10 rounded-full">
+  <img className='object-cover md:h-[500px] h-[200px] w-full' src={Logo} alt='/'/>
+
+  </div>
+</div>
       <ul className='hidden md:flex'>
         <li className='p-4'>
           <a href='/'>Home</a>
@@ -33,8 +39,13 @@ const Navbar = () => {
       </div>
 
 
-      <div className={nav ? 'fixed left-0 top-0 w-[60%] h-full border-r-gray-900 bg-white md:hidden ease-in-out duration-500' : 'fixed left-[-100%]'}>
-      <h1 className=' w-[50px] text-base font-bold ml-3'>@lucaspitaperex</h1> 
+      <div className={nav ? 'z-40 fixed left-0 top-0 w-[60%] h-full border-r-gray-900 bg-white md:hidden ease-in-out duration-500' : 'fixed left-[-100%]'}>
+      <div class="avatar">
+  <div class="w-10 mx-3 rounded-full">
+  <img className='object-cover md:h-[500px] h-[200px] w-full' src={Logo} alt='/' />
+      </div> 
+      </div> 
+
 
         <ul className='pt-4 '>
           <li className='p-4'>
@@ -52,6 +63,8 @@ const Navbar = () => {
         </ul>
       </div>
     </div>
+
+
   )
 }
 

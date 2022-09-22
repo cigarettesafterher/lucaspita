@@ -12,8 +12,8 @@ import Developer from './developer';
 function App() {
   return (
     <div className='bg-gray-50'>
-      
      <Navbar/>
+
      <Routes>
       <Route path='/' element={<Home/>}/>
       <Route path='/projects' element={<Projects/>}/>
