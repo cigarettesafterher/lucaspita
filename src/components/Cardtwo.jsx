@@ -4,7 +4,7 @@ import Mobile from '../assets/reversephone.png';
 const Cardtwo = () => {
   return (
     <div className='w-full py-30 px-4  transform   hover:bg-z-600 transition duration-500 hover:scale-105'>
-        <div className='w-[90%] mx-auto my-20 bg-white rounded-3xl md:drop-shadow-2xl drop-shadow-xl '>
+        <div className='w-[90%] mx-auto my-20 rounded-3xl md:drop-shadow-2xl drop-shadow-xl '>
       <div className='max-w-[1240px] mx-auto grid md:grid-cols-2'>
         <img className='w-[40%] mx-auto ' src={Mobile} alt='/' />
         <div className='flex flex-col justify-center'>
