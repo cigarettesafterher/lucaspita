@@ -16,9 +16,14 @@ const Cardone2 = () => {
           <p className='px-3 '>
 The best software for UI UX
           </p>
-          <h1 className='text-transparent text-1xl bg-clip-text bg-gradient-to-r from-blue-400 to-blue-600 w-[200px] rounded-md font-medium my-2x mx-3 py-3'>Watch site</h1>
+          <a href="figma.com/@cigsafterher">
+         
+          <h1 className='text-transparent text-1xl bg-clip-text bg-gradient-to-r from-blue-400 to-blue-600 w-[200px] rounded-md font-medium my-2x mx-3 py-3'>Watch profile</h1>
+          </a>
            </div>
+         
         </div>
+      
       </div>
       </div>
       <div className='w-[80%] mx-auto my-5 rounded-3xl py-3 px-3 '>
@@ -31,7 +36,10 @@ The best software for UI UX
           <p className='px-3 '>
 Máster en Design Thinking y Diseño UX/UI
           </p>
+          <a href="https://github.com/cigarettesafterher">
+         
           <h1 className='text-transparent text-1xl bg-clip-text bg-gradient-to-r from-blue-400 to-blue-600 w-[200px] rounded-md font-medium my-2x mx-3 py-3'>Watch site</h1>
+        </a>
           </div>
           </div>
         </div>

@@ -2,10 +2,11 @@ import React from 'react'
 import Cardone from './components/Cardone'
 import Cardone2 from './components/Cardone2'
 import Cardtwo from './components/Cardtwo'
-import Codebox from './components/Codebox'
+import Cardtwobooks from './components/Cardtwobooks'
 import Hero from './components/Hero'
 import Hero2 from './components/Hero2'
 import Hero3 from './components/Hero3'
+import Imagegallery from './components/Imagegallery'
 import List from './components/List'
 import Paragraph from './components/Paragraph'
 import Potrait from './components/Potrait'
@@ -35,25 +36,22 @@ function Home() {
       <Paragraph/>
       <Steps />
       <Cardtwo />
-      <Cardtwo />
+      <Cardtwobooks />
     
 
 
       <div class="divider"></div>
       <Potraitproject />
       <Stats />
-      <Cardone2 />
-      <Cardone />
-      <List />
-      <Cardtwo />
+      <Imagegallery />
+   
 
       <div class="divider"></div>
       <div className='bg-gray-50'>
         <Potraitdev/>
-        <Hero2 />
-        <Steps2/>
         <Hero3/>
-        <Codebox/>
+        <Steps2/>
+        <List />
        
 
 

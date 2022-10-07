@@ -8,22 +8,22 @@ const Stats = () => {
    
   
     <div class="stat">
-      <div class="stat-title">Downloads</div>
-      <div class="stat-value text-lg md:text-4xl">31K</div>
-      <div class="stat-desc">Jan 1st - Feb 1st</div>
+      <div class="stat-title">Screens</div>
+      <div class="stat-value text-lg md:text-4xl">4</div>
+      <div class="stat-desc">Figma Data</div>
     </div>
     
     
     <div class="stat">
-      <div class="stat-title">New Users</div>
-      <div class="stat-value text-lg md:text-4xl">4,200</div>
-      <div class="stat-desc">↗︎ 400 (22%)</div>
+      <div class="stat-title">Likes</div>
+      <div class="stat-value text-lg md:text-4xl">2</div>
+      <div class="stat-desc">Figma Data</div>
     </div>
     
     <div class="stat">
-      <div class="stat-title">New Registers</div>
-      <div class="stat-value text-lg md:text-4xl">1,200</div>
-      <div class="stat-desc">↘︎ 90 (14%)</div>
+      <div class="stat-title">Scope</div>
+      <div class="stat-value text-lg md:text-4xl">1,298</div>
+      <div class="stat-desc">Instagram Data</div>
     </div>
     
   </div>

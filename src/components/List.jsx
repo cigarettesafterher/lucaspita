@@ -4,36 +4,41 @@ import Eljardin from '../assets/devscreen.png';
 const List = () => {
   return (
     
-    <div class="overflow-x-auto mx-auto w-[80%] py-8">
-  <table class="table w-full ">
-    <tbody>
+    <div class="overflow-x-auto mx-auto md:w-[65%] w-[90%] py-8">
+  <table class="table w-full  ">
+    <tbody >
     
-      <tr>
+      <tr >
+      
         <th>
         
         </th>
-        <td>
+        <td >
+        <a href="https://github.com/cigarettesafterher/eljardin">
           <div class="flex items-center space-x-3 ">
-            <div class="avatar">
-              <div class="mask mask-squircle w-8 h-8">
-              <img className=' w-[5px] mask mask-circle ' src={Eljardin} alt='/' />
-              </div>
-            </div>
+         
             <div>
               <div class="font-bold">ElJardin</div>
-              <div class="text-sm opacity-50">Javascript</div>
+              <div class="text-sm opacity-50">Social Network</div>
             </div>
+            
           </div>
+          </a>
         </td>
-        <td>
-          React, CSS
        
-          <span class="badge badge-ghost badge-sm">Desktop Support Technician</span>
+        <td>
+          Javascript, React, CSS
+       
+          <span class="badge badge-ghost badge-sm">Final Degre Proyect</span>
         </td>
-        <td>Purple</td>
+        <td>2022</td>
         <th>
-          <button class="btn btn-ghost btn-xs">details</button>
+        <a href="https://github.com/cigarettesafterher/eljardin">
+
+          <button class="btn btn-ghost btn-xs">OPEN</button>
+          </a>
         </th>
+      
       </tr>
    
       <tr>
@@ -41,26 +46,27 @@ const List = () => {
          
         </th>
         <td>
+        <a href="https://github.com/cigarettesafterher/laluzdesupiel">
           <div class="flex items-center space-x-3">
-            <div class="avatar">
-              <div class="mask mask-squircle w-12 h-12">
-                <img src="/tailwind-css-component-profile-3@56w.png" alt="Avatar Tailwind CSS Component" />
-              </div>
-            </div>
+          
             <div>
-              <div class="font-bold">Brice Swyre</div>
-              <div class="text-sm opacity-50">China</div>
+              <div class="font-bold">La Luz</div>
+              <div class="text-sm opacity-50">Clothing Shop</div>
             </div>
           </div>
+          </a>
         </td>
         <td>
-          Carroll Group
           
-          <span class="badge badge-ghost badge-sm">Tax Accountant</span>
+          
+          <span class="badge badge-ghost badge-sm">HTML CSS</span>
         </td>
-        <td>Red</td>
+        <td>2021</td>
         <th>
-          <button class="btn btn-ghost btn-xs">details</button>
+        <a href="https://github.com/cigarettesafterher/laluzdesupiel">
+
+          <button class="btn btn-ghost btn-xs">OPEN</button>
+          </a>
         </th>
       </tr>
       
@@ -69,26 +75,27 @@ const List = () => {
          
         </th>
         <td>
+        <a href="https://lucaspitanotion.vercel.app/">
+
           <div class="flex items-center space-x-3">
-            <div class="avatar">
-              <div class="mask mask-squircle w-12 h-12">
-                <img src="/tailwind-css-component-profile-4@56w.png" alt="Avatar Tailwind CSS Component" />
-              </div>
-            </div>
+           
             <div>
-              <div class="font-bold">Marjy Ferencz</div>
-              <div class="text-sm opacity-50">Russia</div>
+              <div class="font-bold">NotionPortfolio</div>
+              <div class="text-sm opacity-50">Portfolio</div>
             </div>
           </div>
+          </a>
         </td>
         <td>
-          Rowe-Schoen
+         Typescript
          
-          <span class="badge badge-ghost badge-sm">Office Assistant I</span>
+          <span class="badge badge-ghost badge-sm"> Notion</span>
         </td>
-        <td>Crimson</td>
+        <td>2022</td>
         <th>
-          <button class="btn btn-ghost btn-xs">details</button>
+        <a href="https://lucaspitanotion.vercel.app/">
+          <button class="btn btn-ghost btn-xs">OPEN</button>
+          </a>
         </th>
       </tr>
   
@@ -97,26 +104,27 @@ const List = () => {
         
         </th>
         <td>
+        <a href="https://ejemploportfolio.vercel.app/">
+
           <div class="flex items-center space-x-3">
-            <div class="avatar">
-              <div class="mask mask-squircle w-12 h-12">
-                <img src="/tailwind-css-component-profile-5@56w.png" alt="Avatar Tailwind CSS Component" />
-              </div>
-            </div>
+           
             <div>
-              <div class="font-bold">Yancy Tear</div>
-              <div class="text-sm opacity-50">Brazil</div>
+              <div class="font-bold">Graph CMS Portfolio</div>
+              <div class="text-sm opacity-50">Portfolio</div>
             </div>
           </div>
+          </a>
         </td>
         <td>
-          Wyman-Ledner
-         
-          <span class="badge badge-ghost badge-sm">Community Outreach Specialist</span>
+          GraphCMS
+          <span class="badge badge-ghost badge-sm">Javascript</span>
         </td>
-        <td>Indigo</td>
+        <td>2022</td>
         <th>
-          <button class="btn btn-ghost btn-xs">details</button>
+        <a href="https://ejemploportfolio.vercel.app/">
+
+          <button class="btn btn-ghost btn-xs">OPEN</button>
+          </a>
         </th>
       </tr>
     </tbody>

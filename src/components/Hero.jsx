@@ -12,7 +12,10 @@ const Hero = () => {
 className='md:text-4xl sm:text-3xl text-xl font-bold pl-2' strings={['el jardín', 'la luz de su piel']} typeSpeed={120} backSpeed={140} loop />
        </div>
        <p className='md:text-2xl text-xl font-bold text-gray-500 md:py-3 py-3'>Working as a UX UI designer </p>
-       <button className='text-transparent text-1xl bg-clip-text bg-gradient-to-r from-blue-400 to-blue-600 w-[200px] rounded-md font-medium my-2 mx-auto pt-3 text-blue-400'>Read CV</button>
+       <a href="https://drive.google.com/file/d/1i-hRQAtU9lhMtuUWt-b51UgRWvmACmCY/view?usp=sharing">
+
+       <button className='text-transparent text-1xl bg-clip-text bg-gradient-to-r from-blue-400 to-blue-600 w-[200px] rounded-md font-medium my-2 mx-auto pt-3 text-blue-400 hover:bg-z-600 transition duration-500 hover:scale-105'>Read CV</button>
+       </a>
         </div>
         </div>
   )

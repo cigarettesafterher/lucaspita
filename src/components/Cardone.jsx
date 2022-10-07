@@ -16,7 +16,7 @@ const Cardone = () => {
           <p className='px-3 '>
           Streaming creative process 
           </p>
-          <h1 className='text-transparent text-base bg-clip-text bg-gradient-to-r from-blue-400 to-blue-600 w-[200px] rounded-md font-medium my-2x mx-3 py-3'>Watch</h1>
+          <h1 className='text-transparent text-base bg-clip-text bg-gradient-to-r from-gray-400 to-gray-600 w-[200px] rounded-md font-medium my-2x mx-3 py-3'>soon</h1>
         </div>
         </div>
       </div>
@@ -31,7 +31,9 @@ const Cardone = () => {
           <p className='px-3 '>
 Máster en Design Thinking y Diseño UX/UI
           </p>
+          <a href="https://barreira.edu.es/estudiar-diseno-grafico/master-ux-ui/#plan-estudios">
           <h1 className='text-transparent text-1xl bg-clip-text bg-gradient-to-r from-blue-400 to-blue-600 w-[200px] rounded-md font-medium my-2x mx-3 py-3'>Watch site</h1>
+          </a>
           </div>
           </div>
         </div>
