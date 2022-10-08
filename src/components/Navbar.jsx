@@ -26,7 +26,9 @@ const Navbar = () => {
         <li className='p-4'>
         <Link to="hero2" spy={true} smooth={true} offset={100} duration={500}>Font-end</Link>
         </li>
-        <li className='p-4'>Contact</li>
+        <li  className='p-4'>
+        <a href='/projects'>Contacts</a>
+        </li>
       </ul>
       <div onClick={handleNav} className='block md:hidden'>
         {nav ? <XIcon className='fixed h-5 w-5 text-black' /> : <ViewListIcon className='h-5 w-5 text-black' />}
@@ -49,7 +51,9 @@ const Navbar = () => {
           <li className='p-4'>
           <Link to="developer" spy={true} smooth={true} offset={100} duration={500}>Developer</Link>
           </li>
-          <li className='p-4'>Contact</li>
+          <li className='p-4'>
+          <a href='/projects'>Contacts</a>
+          </li>
 
         </ul>
       </div>
