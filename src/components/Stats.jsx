@@ -9,7 +9,7 @@ const Stats = () => {
   
     <div class="stat">
       <div class="stat-title">Screens</div>
-      <div class="stat-value text-lg md:text-4xl">4</div>
+      <div class="stat-value text-lg md:text-4xl">9</div>
       <div class="stat-desc">Figma Data</div>
     </div>
     

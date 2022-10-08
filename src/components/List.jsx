@@ -1,10 +1,9 @@
 import React from 'react'
-import Eljardin from '../assets/devscreen.png';
 
 const List = () => {
   return (
     
-    <div class="overflow-x-auto mx-auto md:w-[65%] w-[90%] py-8">
+    <div class=" hidden sm:visible ∫overflow-x-auto mx-auto md:w-[65%] w-[90%] py-8">
   <table class="table w-full  ">
     <tbody >
     

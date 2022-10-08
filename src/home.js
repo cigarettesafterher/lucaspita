@@ -28,8 +28,6 @@ function Home() {
       <Hero />
       <Cardone2 />
       <Cardone />
-     
-
       <div class="divider"></div>
       <Potraitux />
       <Hero2 />
@@ -37,9 +35,6 @@ function Home() {
       <Steps />
       <Cardtwo />
       <Cardtwobooks />
-    
-
-
       <div class="divider"></div>
       <Potraitproject />
       <Stats />
@@ -51,11 +46,7 @@ function Home() {
         <Potraitdev/>
         <Hero3/>
         <Steps2/>
-        <List />
-       
-
-
-
+        <List /> 
     </div>
 
 

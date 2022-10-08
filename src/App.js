@@ -11,15 +11,19 @@ import Developer from './developer';
 
 function App() {
   return (
+    
     <div className='bg-gray-50'>
       
-     <Navbar/>
+      <Navbar/>
      <Routes>
       <Route path='/' element={<Home/>}/>
       <Route path='/projects' element={<Projects/>}/>
       <Route path='/developer' element={<Developer/>}/>
      </Routes>
+     
      <Footer/>
+   
+     
   
     </div>
   );
