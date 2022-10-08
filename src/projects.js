@@ -1,12 +1,12 @@
 import React from 'react'
 import Hero5 from './components/Hero5'
-import Paragraph from './components/Paragraph'
+import Paragraphtwo from './components/Paragraphtwo'
 
 
 function Projects() {
   return (
     <div className='bg-gray-50'>
-<Paragraph/>
+<Paragraphtwo/>
 <Hero5/>
 
 

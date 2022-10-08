@@ -6,21 +6,28 @@ import Imagen3 from '../assets/pantalla5.png';
 const Imagegallery = () => {
   return (
     <div className='max-w-[1240px]  sm:visible mx-auto sm:grid md:grid-cols-3 pb-10 '>
+   <a href="https://eljardin.vercel.app/">
    <div class="<card w-96  bg-gray-50 mx-auto rounded-none px-3 hover:bg-z-600 transition duration-500 hover:scale-105 py-10">
   
   <figure><img className='object-cover md:h-[250px] h-[200px] w-full  ' src={Imagen1} />
 </figure>
 </div>
+</a>
+<a href="https://eljardin.vercel.app/">
+
 <div class="card w-96   bg-gray-50 mx-auto rounded-none px-3 hover:bg-z-600 transition duration-500 hover:scale-105 py-10">
   
   <figure><img className='object-cover md:h-[250px] h-[200px] w-full ' src={Imagen2} />
 </figure>
-</div>
+</div></a>
+<a href="https://laluzdesupiel.vercel.app/">
+
 <div class="card w-96  bg-gray-50 mx-auto rounded-none px-3 hover:bg-z-600 transition duration-500 hover:scale-105 py-10">
   
   <figure><img className='object-cover md:h-[250px] h-[200px] w-full ' src={Imagen3} />
 </figure>
 </div>
+</a>
 </div>
  );
 }

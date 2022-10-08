@@ -6,12 +6,13 @@ const Paragraphtwo = () => {
     <div className='text-black' id='Hero2'> 
     <div className='max-w-[800px] mt-[10px] w-[80%] h-full mx-auto text-center flex flex-col mb-20 justify-center'>    
        <p className='md:text-xl text-lg text-black md:py-3 py-3'>
-       Create a repository in Github, it is used to store the files of the
-website. Inside is stored all the code.
-On the other hand, Vercel is the server where it will be published.
-Vercel is a platform to implement websites. When connecting a
-GitHub repository to Vercel, can be deployed to Vercel domains, and
-does all the heavy lifting. </p>
+       Lucas Pita lives and works in Münich and is creator of *ElJardín*.
+
+Working as a UX UI designer.
+</p>
+<p className='md:text-xl text-lg text-black md:py-3 py-3'>
+
+He is the person who can bring the conection between design, art and engineering to give your ideas that extra shine.✨</p>
        
         </div>
         </div>

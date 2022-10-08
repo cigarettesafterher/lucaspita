@@ -21,10 +21,10 @@ const Navbar = () => {
         <Link to="ux" spy={true} smooth={true} offset={50} duration={500}>UX</Link>
         </li>
         <li className='p-4'>
-        <Link to="developer" spy={true} smooth={true} offset={100} duration={500}>UI</Link>
+        <Link to="ui" spy={true} smooth={true} offset={100} duration={500}>UI</Link>
         </li>
         <li className='p-4'>
-        <Link to="hero2" spy={true} smooth={true} offset={100} duration={500}>Font-end</Link>
+        <Link to="developer" spy={true} smooth={true} offset={100} duration={500}>Font-end</Link>
         </li>
         <li  className='p-4'>
         <a href='/projects'>Contacts</a>
